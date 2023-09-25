@@ -1,8 +1,9 @@
 class ItemClass {
-  ItemClass({
+  final String title;
+  final String imagepath;
+
+  const ItemClass({
     required this.title,
-    required this.imagepath
+    required this.imagepath,
   });
-  String title;
-  String imagepath;
 }

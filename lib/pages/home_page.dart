@@ -14,25 +14,28 @@ class HomePage extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
-              CardWidget(
-                box: ItemClass(title: "rocket", imagepath: 'images/yeah.png')
+               CardWidget(
+                box: ItemClass(title: 'rocket', imagepath: 'images/rocket.png')
                 ),
               Row(
                 children: [
                   Expanded(
                     child: CardWidget(
-                      box: ItemClass(title: "rocket", imagepath: 'images/yeah.png')
+                      box: ItemClass(
+                        title: "rocket", imagepath: "images/space.png")
                     ),
                   ),
                   Expanded(
                     child: CardWidget(
-                      box: ItemClass(title: "rocket", imagepath: 'images/yeah.png')
+                      box: ItemClass(
+                        title: "rocket", imagepath: "images/travel.png")
                     ),
                   )
                 ],
               ),
               CardWidget(
-                box: ItemClass(title: "rocket", imagepath: 'images/yeah.png')
+                box: ItemClass(
+                  title: "rocket", imagepath: "images/yeah.png")
               ),
             ],
           ),
