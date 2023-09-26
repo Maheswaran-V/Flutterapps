@@ -37,12 +37,12 @@ class CardWidget extends StatelessWidget {
               Image.asset(box.imagepath),
               Text(
                 box.title,
-                style: const TextStyle(
+                style:const TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black54),
+                    ),
               ),
-              Text("This is the ${box.title} escription"),
+              Text("This is the ${box.title} description"),
               const SizedBox(
                 height: 10,
               ),
